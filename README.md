@@ -18,6 +18,6 @@ This open list should help others write or perform tests they need in a tool the
 Currently this includes:
 
 1. [Configuration - General Checks](lists/configuration-general-checks.md)
-2. [Configuration - Node Checks](configuration-node-checks.md)
-3. [Operational - General Checks](operational-general-checks.md)
-4. [Operational - Node Checks](operational-node-checks.md)
+2. [Configuration - Node Checks](lists/configuration-node-checks.md)
+3. [Operational - General Checks](lists/operational-general-checks.md)
+4. [Operational - Node Checks](lists/operational-node-checks.md)
