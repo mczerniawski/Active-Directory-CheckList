@@ -24,6 +24,5 @@
 |Features|Verify Optional Feature `Recycle Bin should be [Enabled]`||If domain 2008 R2|
 |Features|Verify Optional Feature `Privileged Access Management Feature should be [Enabled]`||If domain 2016|
 |Features|Verify Optional Feature `Bitlocker allows storing recovery key in AD should be [Configured]`|||
-|Features|Verify Optional Feature `Bitlocker allows storing recovery key in AD should be [Configured]`|||
 |PrivAccounts|Verify Privileged Groups `contains only desired members`|||
 |PrivAccounts|Verify Privileged Users permissions `are set to defaults`||[Docs.Microsoft.com](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/appendix-b--privileged-accounts-and-groups-in-active-directory)|
