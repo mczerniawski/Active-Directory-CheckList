@@ -21,8 +21,8 @@
 |Password|Verify Password `Minimum Age should be [greater than X]`|||
 |Password|Verify Password `History Count should be [greater than X]`|||
 |Password|Verify Password `Reversible Encryption should be [Disabled]`|||
-|Features|Verify Optional Feature `Recycle Bin should be [Enabled]`||If domain 2012|
-|Features|Verify Optional Feature `Privileged Access Management Feature should be [Enabled]`||If domain 2008 R2|
+|Features|Verify Optional Feature `Recycle Bin should be [Enabled]`||If domain 2008 R2|
+|Features|Verify Optional Feature `Privileged Access Management Feature should be [Enabled]`||If domain 2016|
 |Features|Verify Optional Feature `Bitlocker allows storing recovery key in AD should be [Configured]`|||
 |Features|Verify Optional Feature `Bitlocker allows storing recovery key in AD should be [Configured]`|||
 |PrivAccounts|Verify Privileged Groups `contains only desired members`|||
