@@ -26,5 +26,5 @@ These checks should be performed against EACH DC!
 |Time|Verify `Non-PDC should [sync time to PDC emulator]`|||
 |Time|Verify `Virtualized DCs should [sync to hypervisor during boot time only]`|||
 |Host|Verify `OS partition Free space is [at least X %]`|||
-|Host|Verify `SYSVOL partition Free space is [at least X %]`|||
+|Host|Verify `NTDS partition Free space is [at least X %]`|||
 
