@@ -3,6 +3,9 @@
 ### Legend
 ---
 - DC = Domain Controller
+- PrivAccounts = Privileged Accounts [Docs.Microsoft.com](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/appendix-b--privileged-accounts-and-groups-in-active-directory)
+- PrivGroups = Privileged Groups [Docs.Microsoft.com](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/appendix-b--privileged-accounts-and-groups-in-active-directory)
+
 
 ---
 
@@ -18,4 +21,9 @@
 |Password|Verify Password `Minimum Age should be [greater than X]`|||
 |Password|Verify Password `History Count should be [greater than X]`|||
 |Password|Verify Password `Reversible Encryption should be [Disabled]`|||
-|Features|Verify Optional Feature `Recycle Bin should be [Enabled]`|||
+|Features|Verify Optional Feature `Recycle Bin should be [Enabled]`||If domain 2012|
+|Features|Verify Optional Feature `Privileged Access Management Feature should be [Enabled]`||If domain 2008 R2|
+|Features|Verify Optional Feature `Bitlocker allows storing recovery key in AD should be [Configured]`|||
+|Features|Verify Optional Feature `Bitlocker allows storing recovery key in AD should be [Configured]`|||
+|PrivAccounts|Verify Privileged Groups `contains only desired members`|||
+|PrivAccounts|Verify Privileged Users permissions `are set to defaults`||[Docs.Microsoft.com](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/appendix-b--privileged-accounts-and-groups-in-active-directory)|
