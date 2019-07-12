@@ -14,7 +14,7 @@ These checks should be performed against EACH DC!
 
 |Area|Test|Possible approach|Details|
 |---|---|---|---|
-|Connectivity|Verify `DC is [recheable]`|ICMP echo request (ping)||
+|Connectivity|Verify `DC is [reachable]`|ICMP echo request (ping)||
 |Services|Verify all `{Services} are [running]`|||
 |Services|Verify all `{Services} are set to [automatic startup]`|||
 |DNS resolve|Verify `DNS on DC [resolves DNS]`|Resolve current/any host name i.e. Resolve-DNSName||
