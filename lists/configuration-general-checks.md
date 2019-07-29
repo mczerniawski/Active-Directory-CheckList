@@ -15,7 +15,7 @@
 |---|---|---|---|
 |Password|Verify Password `Complexity Policy should be [Enabled]`|||
 |Password|Verify Password `Length should be [greater than X]`|||
-|Password|Verify Password `Treshold should be [greater than X]`|||
+|Password|Verify Password `Threshold should be [greater than X]`|||
 |Password|Verify Password `Lockout Duration should be [greater than X minutes]`|||
 |Password|Verify Password `Lockout Observation Window should be [greater than X minutes]`|||
 |Password|Verify Password `Minimum Age should be [greater than X]`|||

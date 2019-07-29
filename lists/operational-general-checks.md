@@ -25,6 +25,6 @@
 |DNS|Verify `DNS Reverse Lookup zones are [configured for all site subnets]`|||
 |DNS|Verify `DNS Scavenging is set to [X days]`|||
 |DHCP|Verify at least `one DHCP is [authorized in domain]`||If other DHCP than domain integrated is used this should be skipped|
-|Sites|Verify each `site have at least [one subnet configured]`|||
-|FMSO|Verify each `FSMO holder is [recheable]`|||
-|RODC|Verify each `RODC is [recheable]`||If applicable|
+|Sites|Verify each `site has at least [one subnet configured]`|||
+|FMSO|Verify each `FSMO holder is [reachable]`|||
+|RODC|Verify each `RODC is [reachable]`||If applicable|
